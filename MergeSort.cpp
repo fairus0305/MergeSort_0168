@@ -65,3 +65,11 @@ while (i <= mid && j <= high) // step 4.d
     }
     k++; // step 4.d.ii
 }
+
+while (j <= high) // step 4.e
+{
+    B[k] = arr[j];
+    j++;
+    k = k + 1;
+}
+
